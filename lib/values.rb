@@ -9,8 +9,5 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.each do |key, value|
-   key.each do |indef, in|
-     binding.pry
-  end 
+ groceries.values.flatten
 end
